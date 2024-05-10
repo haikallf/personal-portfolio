@@ -1,9 +1,10 @@
 import "./App.css";
+import fontStyles from "./theme/fontStyles";
 
 function App() {
   return (
     <div className="App">
-      <p>HI</p>
+      <p className={`${fontStyles.display}`}>HI</p>
     </div>
   );
 }
